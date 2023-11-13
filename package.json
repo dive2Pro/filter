@@ -1,0 +1,30 @@
+{
+  "name": "blueprint-sandbox-legacy",
+  "version": "1.0.0",
+  "description": "Legacy sandbox for testing Blueprint code. Deprecated as of April 2023.",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@blueprintjs/core": "3.19.1",
+    "@blueprintjs/datetime": "3.19.3",
+    "@blueprintjs/datetime2": "0.9.23",
+    "@blueprintjs/icons": "3.19.0",
+    "@blueprintjs/popover2": "1.13.10",
+    "@blueprintjs/select": "3.19.1",
+    "mobx": "6.11.0",
+    "mobx-react-lite": "4.0.5",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts-ts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.46",
+    "@types/react-dom": "16.9.8"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
